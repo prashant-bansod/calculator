@@ -17,10 +17,7 @@ jobs:
             . venv/bin/activate
             #pip install -r requirements.txt
                 #- apt-get install build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib1g-dev libsqlite3-dev tk-dev libssl-dev openssl libbz2-dev libreadline-dev
-            apt-get update
-            apt-get install -y git
-            apt-get install -y python3.6-dev
-            apt-get install -y python3-pip
+     
             sudo sh sh/install-cuda-10-0.sh 
           # setup python testing environments
             
