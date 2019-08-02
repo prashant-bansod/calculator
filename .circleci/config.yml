@@ -15,7 +15,7 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            #pip install -r requirements.txt
+            pip install -r requirements.txt
                 #- apt-get install build-essential libncursesw5-dev libgdbm-dev libc6-dev zlib1g-dev libsqlite3-dev tk-dev libssl-dev openssl libbz2-dev libreadline-dev
             apt-get update
             apt-get install -y git
